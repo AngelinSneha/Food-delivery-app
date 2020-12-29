@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  body {
+      margin: 0;
+  }
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    height: 540px;
+}
+.main {
+    flex: 55%;
+    background-color: white;
+    padding: 1rem 2.5rem 0 3.2rem;
+}
+.login_button {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.signup_button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.side {
+    flex: 45%;
+  }
+
+  .homePage_img {
+      vertical-align: middle;
+      width: 100%;
+      height: 540px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: cover;
+      background-position: 100%;
+  }
+  .login_signup_buttons {
+      float: right;
+      font-size: 1rem;
+      margin-top: -3.3rem;
+      margin-bottom: 1rem;
+  }
+  @media screen and (max-width: 850px) {
+    .login_signup_buttons {
+      float: none;
+      /* width: 100%; */
+      margin-top: 0.5rem;
+    }
+}
+  .app_name {
+      font-size: 1.8rem;
+      font-family: Verdana;
+      left: 0;
+      top: 0;
+      margin-top: 2.5rem;
+      color: #c70039;
+  }
+  .main_content {
+      margin: 6.5rem 1rem 1rem 0;
+  }
+  .main_contentLineOne {
+      font-size: 4.5rem;
+      margin-bottom: 0;
+  }  
+  .main_contentLineTwo {
+    color: gray;
+    padding-left: 0.2rem;
+    font-size: 1.5rem;
+    margin-top: .65rem;
+}  
