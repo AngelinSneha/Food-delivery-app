@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Footer.css"
+var d = new Date();
+  var n = d.getFullYear();
 function Footer() {
     return (
         <div className="footer">
@@ -8,7 +10,7 @@ function Footer() {
                 <p className="nameOfApp">🍜Food Delivery</p>
                 <p>Feedback</p>
             </div>
-            <div className="footerLineTwo">© Copyright 2019. All Rights Reserved.</div>
+            <div className="footerLineTwo">© Copyright {n}. All Rights Reserved.</div>
         </div>
     )
 }
