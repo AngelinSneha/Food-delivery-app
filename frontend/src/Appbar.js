@@ -11,6 +11,7 @@ import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import MenuIcon from '@material-ui/icons/Menu';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -22,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     fontFamily:'helvetica',
-    fontSize:'1.4rem'
+    fontSize:'1.4rem',
+    color:"white"
   },
   appbar: {
     backgroundColor:'#c70039'
@@ -111,8 +113,8 @@ export default function Appbar() {
     <div className={classes.grow}>
       <AppBar position="static" className={classes.appbar}>
         <Toolbar>
-        <Typography variant="h6" className={classes.title}>
-           🍜 Food Delivery
+        <Typography variant="h6">
+        <Button className={classes.title} href="/"> 🍜 Food Delivery</Button>
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>

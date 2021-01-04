@@ -1,5 +1,5 @@
-import { Grid } from '@material-ui/core'
 import React from 'react'
+import { Grid } from '@material-ui/core'
 import RestaurantContentPage from "./RestaurantContentPage";
 import RestaurantPage from "./RestaurantPage";
 function RestaurantPages() {
@@ -13,11 +13,12 @@ function RestaurantPages() {
     }
 
     return (
-        <div>
-        <Grid container spacing={3}>
-            {RestaurantContentPage.map(obj => getRestaurantContentPage(obj))}
-        </Grid>
-        </div>
+        
+            <div>
+            <Grid container spacing={3}>
+                {RestaurantContentPage.map(obj => getRestaurantContentPage(obj))}
+            </Grid>
+            </div>
     )
 }
 

@@ -1,4 +1,5 @@
 import HomePage from "./HomePage";
+import RestaurantMenuPage from "./RestaurantMenuPage";
 import RestaurantsHomePage from "./RestaurantsHomePage";
 import {
   BrowserRouter as Router,
@@ -14,6 +15,9 @@ function App() {
      <Switch>
      <Route path="/restaurants">
         <RestaurantsHomePage />
+      </Route>
+      <Route path="/:restaurantName/menu">
+        <RestaurantMenuPage />
       </Route>
      <Route path="/">
         <HomePage />
