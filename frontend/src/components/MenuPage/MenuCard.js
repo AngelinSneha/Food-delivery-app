@@ -10,10 +10,10 @@ import Button from '@material-ui/core/Button';
 import MenuQuatityButton from "./MenuQuatityButton";
 const useStyles = makeStyles({
   root: {
-    maxWidth: 325,
+    maxWidth: 445,
   },
   media: {
-    height: 230,
+    height: 170,
   },
 });
 

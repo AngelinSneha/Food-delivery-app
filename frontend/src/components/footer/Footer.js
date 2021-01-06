@@ -6,9 +6,9 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footerLineOne">
-                <p>Contact Us</p>
-                <p className="nameOfApp">🍜Food Delivery</p>
-                <p>Feedback</p>
+                <a href="/contactus" className="ah">Contact Us</a>
+                <a href="/" className="nameOfApp">🍜Food Delivery</a>
+                <a href="/feedback"className="ah">Feedback</a>
             </div>
             <div className="footerLineTwo">© Copyright {n}. All Rights Reserved.</div>
         </div>
