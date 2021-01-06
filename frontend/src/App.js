@@ -1,6 +1,6 @@
-import HomePage from "./HomePage";
-import RestaurantMenuPage from "./RestaurantMenuPage";
-import RestaurantsHomePage from "./RestaurantsHomePage";
+import HomePage from "./components/HomePage";
+import RestaurantMenuPage from "./components/RestaurantMenuPage";
+import RestaurantsHomePage from "./components/RestaurantsHomePage";
 import {
   BrowserRouter as Router,
   Switch,
