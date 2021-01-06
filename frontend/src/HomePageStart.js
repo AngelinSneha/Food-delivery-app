@@ -1,6 +1,5 @@
 import React from 'react'
 import SendIcon from '@material-ui/icons/Send';
-import DeleteIcon from '@material-ui/icons/Delete';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import "./HomePageStart.css"
@@ -25,8 +24,8 @@ function HomePageStart() {
             <div className="main">
                 <p class="app_name">🍜Food Delivery </p> 
                 <div className="login_signup_buttons">
-                    <a href="#" className="login_button">Login</a>
-                    <a href="#" className="signup_button">SignUp</a>
+                    <a href="/login" className="login_button">Login</a>
+                    <a href="/signup" className="signup_button">SignUp</a>
                 </div>
                 <div className="main_content">
                     <h1 className="main_contentLineOne" >Hungry?</h1>

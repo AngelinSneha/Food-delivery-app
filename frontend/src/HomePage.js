@@ -24,10 +24,10 @@ function HomePage() {
             <div className="collections">
                 <p className="todays_offer">Today's Offers</p>
                 <div className="restaurants_button">
-                <Button size="small" color="secondary" >
+                <Button size="small" color="secondary" href='/'>
                     Checkout all Restaurants
                 </Button>
-                <IconButton className={classes.icon}  color="secondary" aria-label="Arrow Right">
+                <IconButton className={classes.icon} href='/'  color="secondary" aria-label="Arrow Right">
                 <ArrowRightIcon />
                 </IconButton>
                 </div>

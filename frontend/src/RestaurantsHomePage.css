@@ -1,0 +1,15 @@
+.content {
+    margin: 3rem;
+}
+.OrderfromRes {
+    font-weight: 300;
+    font-size: 2.5rem;
+    font-family: 'Circular-Loom';
+}
+.address {
+    font-family: 'Circular-Loom';
+    padding-left: .3rem;
+}
+.addressSpan {
+    color: #c70039;
+}
