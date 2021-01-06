@@ -6,6 +6,7 @@ export default (sequelize, type) => {
       allowNull: false,
       autoIncrement: true,
     },
+    
     Date: {
       type: type.DATE,
       defaultValue: new Date(),

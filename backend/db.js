@@ -27,4 +27,11 @@ const Delivery = DeliveryModel(db, Sequelize);
 const Food = FoodModel(db, Sequelize);
 const Order = OrderModel(db, Sequelize);
 
+
+Admin.hasMany(Food)
+Food.belongsToMany(CartItem,{through : 'Food_added_to'});
+CartItem.belongsToMany(Order,{through : 'Cart_has'});
+Customer.belongsToMany(Order,{through : 'Order_by'});
+Order.belongsToMany(Delivery,{through : 'Deliver_to'})
+
 export default db
