@@ -1,13 +1,13 @@
 import React from 'react'
 import "./HomePage.css"
-import Footer from "./Footer"
+import Footer from "./footer/Footer"
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from "@material-ui/core";
-import HomePageStart from "./HomePageStart";
+import HomePageStart from "./homePage/HomePageStart";
 import IconButton from '@material-ui/core/IconButton';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import Button from '@material-ui/core/Button';
-import CollectionCards from "./CollectionCards";
+import CollectionCards from "./homePage/CollectionCards";
 
 const useStyles = makeStyles((theme) => ({
     icon: {

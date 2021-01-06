@@ -1,10 +1,10 @@
 import React from 'react'
-import Appbar from "./Appbar";
+import Appbar from "./header/Appbar";
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import "./RestaurantsHomePage.css";
 import { Grid } from "@material-ui/core";
-import RestaurantPages from "./RestaurantPages";
-import Footer from "./Footer"
+import RestaurantPages from "./RestaurantsPage/RestaurantPages";
+import Footer from "./footer/Footer"
 function RestaurantsHomePage() {
     return (
         <div>
