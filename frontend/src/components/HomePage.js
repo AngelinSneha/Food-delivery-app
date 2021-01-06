@@ -25,13 +25,13 @@ function HomePage() {
                 <p className="todays_offer">Today's Offers</p>
                 <div className="restaurants_button">
                 <Button size="small" color="secondary" href='/'>
-                    Checkout all Restaurants
+                    Checkout our Menu
                 </Button>
                 <IconButton className={classes.icon} href='/'  color="secondary" aria-label="Arrow Right">
                 <ArrowRightIcon />
                 </IconButton>
                 </div>
-                <p className="top_restaurants">Explore All Top Restaurants near you.</p>
+                <p className="top_restaurants">Discover the best food near you.</p>
                 
             </div>
             <Grid container>

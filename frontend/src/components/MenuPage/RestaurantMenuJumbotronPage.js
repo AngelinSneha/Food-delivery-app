@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
     menu: {
         '&:hover': {
             textDecoration:"none" ,
-          }
+          },
+          color:"#c70039"
     },
     div: {
         padding: '1rem',
@@ -30,18 +31,17 @@ const useStyles = makeStyles((theme) => ({
     },
     resh1: {
         margin:"0 0 0 2rem",
-        fontWeight:'500'
+        fontWeight:'500',
     },
     resp: {
         margin: '.5rem 0 0 2rem',
-        color: 'gray',
+        color:"#c70039"
     }
   }));
 
 
-function RestaurantMenuJumbotronPage(props) {
+function RestaurantMenuJumbotronPage() {
     const classes = useStyles();
-    const {img, title, content} = props;
     return (
         <div>
              {/* Breadcrumbs */}
@@ -50,11 +50,7 @@ function RestaurantMenuJumbotronPage(props) {
                             <Link color="inherit" href="/" >
                                 Home
                             </Link>
-                            <Link color="inherit" href="/restaurants" >
-                                Restaurants
-                            </Link>
                             <Link
-                                color="secondary"
                                 aria-current="Menu"
                                 className={classes.menu}
                             >
@@ -62,10 +58,10 @@ function RestaurantMenuJumbotronPage(props) {
                             </Link>
                         </Breadcrumbs>
                         <div className={classes.content}>
-                            <img className={classes.img} src={img} />
+                            <img className={classes.img} src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                             <div className={classes.resContent}>
-                                <h1 className={classes.resh1}>{title}</h1>
-                                <p className={classes.resp}>{content}</p>
+                                <h1 className={classes.resh1}>Craving For Tasty Food?</h1>
+                                <p className={classes.resp}>Order your favourite dish now!</p>
                             </div>
                         </div>
                     </div>

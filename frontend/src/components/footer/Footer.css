@@ -12,7 +12,8 @@
 .footerLineTwo {
     text-align: center;
     font-size: .8rem;
+    margin-top: 1rem;
 }
-/* .nameOfApp {
-    font-size: 1.2rem;
-} */
+.nameOfApp, .ah {
+    color: white;
+}
