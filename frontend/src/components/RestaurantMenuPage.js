@@ -10,11 +10,7 @@ function RestaurantMenuPage() {
             {/* header */}
             <Appbar />
             {/* jumbotron */}
-            <RestaurantMenuJumbotronPage
-            img= "https://b.zmtcdn.com/data/pictures/1/50471/bcf68da39dcfb0fe5bcfb742c337385e.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" 
-            title="Empire Restaurant"
-            content="North Indian, Chinese, South Indian, Biryani"
-            />
+            <RestaurantMenuJumbotronPage />
             {/* menu */}
             <h1 style={{margin:'2rem 0 2rem 3rem'}}>Recommended For You</h1>
             <Grid container>

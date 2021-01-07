@@ -1,4 +1,5 @@
 import HomePage from "./components/HomePage";
+import HelpPage from "./HelpPage"
 import RestaurantMenuPage from "./components/RestaurantMenuPage";
 import {
   BrowserRouter as Router,
@@ -15,7 +16,10 @@ function App() {
       <Route path="/menu">
         <RestaurantMenuPage />
       </Route>
-     <Route path="/">
+      <Route path="/help">
+        <HelpPage />
+      </Route>
+      <Route path="/">
         <HomePage />
       </Route>
      </Switch>

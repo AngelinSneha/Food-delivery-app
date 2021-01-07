@@ -1,0 +1,17 @@
+.jumbo {
+    background-color: #f8f7de;
+    width: 100%;
+    padding: 2rem;
+}
+.jumbo > h1 {
+    text-align: center;
+}
+.jumbo > p {
+    text-align: center;
+}
+.get {
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+}

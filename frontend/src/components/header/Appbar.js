@@ -95,7 +95,8 @@ export default function Appbar() {
       <MenuItem>
         <Button
         startIcon={<PersonIcon />}
-      >
+        href="/help"
+        >
         help
       </Button>
       </MenuItem>
@@ -125,6 +126,7 @@ export default function Appbar() {
         Cart
       </Button>
             <Button
+            href="/help"
         className={classes.button}
         startIcon={<PersonIcon />}
       >
