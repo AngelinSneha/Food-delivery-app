@@ -25,7 +25,7 @@ function HomePageStart() {
                 <p class="app_name">🍜Food Delivery </p> 
                 <div className="login_signup_buttons">
                     <a href="/login" className="login_button">Login</a>
-                    <a href="/signup" className="signup_button">SignUp</a>
+                    <a href="/login" className="signup_button">SignUp</a>
                 </div>
                 <div className="main_content">
                     <h1 className="main_contentLineOne" >Hungry?</h1>
@@ -34,7 +34,7 @@ function HomePageStart() {
                         variant="contained"
                         color="secondary"
                         size="large"
-                        href="#"
+                        href="/login"
                         className={classes.button}
                         endIcon={<SendIcon />}
                     >

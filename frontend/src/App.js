@@ -7,7 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+import Login from "./Login"
 function App() {
   return (
     <div className="app">
@@ -19,6 +19,9 @@ function App() {
       <Route path="/help">
         <HelpPage />
       </Route>
+      <Route path="/login">
+        <Login />
+        </Route>
       <Route path="/">
         <HomePage />
       </Route>

@@ -115,7 +115,7 @@ export default function Appbar() {
       <AppBar position="static" className={classes.appbar}>
         <Toolbar>
         <Typography variant="h6">
-        <Button className={classes.title} href="/"> 🍜 Food Delivery</Button>
+        <Button className={classes.title} href="/menu"> 🍜 Food Delivery</Button>
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>

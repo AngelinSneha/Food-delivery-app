@@ -21,7 +21,7 @@ function HomePage() {
             <HomePageStart />
 
             {/* Collection Cards */}
-            <div className="collections">
+            {/* <div className="collections">
                 <p className="todays_offer">Today's Offers</p>
                 <div className="restaurants_button">
                 <Button size="small" color="secondary" href='/'>
@@ -40,7 +40,7 @@ function HomePage() {
                 <CollectionCards />
                 </Grid>
                 <Grid item xs={1} />
-            </Grid>
+            </Grid> */}
 
             {/* footer */}
             <Footer />

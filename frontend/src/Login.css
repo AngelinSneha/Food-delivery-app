@@ -1,0 +1,67 @@
+.login-register-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 500px;
+    padding: 0 2rem;
+    height: 650px;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    /* background: linear-gradient(180deg, #c70039 30%, #f05454 64%); */
+    background-color: #c70039;
+}
+.nav-buttons {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    /* margin-bottom: 3rem; */
+    opacity: 1;
+}
+button {
+    cursor: pointer;
+}
+button:focus {
+    outline: 0;
+}
+#loginBtn, #registerBtn {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    border: 0;
+    background-color: #c70039;
+    color: white;
+}
+#loginBtn.active {
+    padding-bottom: 10px;
+    border-bottom: solid 2px orange;
+}
+#forgot-panel {
+    position: relative;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 24px;
+    border-top: solid 1px rgba(255, 255, 255, 0.3);
+    color: white;
+    margin-top: -300px;
+}
+form, #forgot-panel {
+    position: relative;
+    transition: all .2s ease;
+}
+#loginBtn, #registerBtn {
+    transition: all .2s ease;
+}
+form#registerform {
+    left: 31.25rem;
+    top:-12.5rem;
+    position: relative;
+
+}
+.head {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
