@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '@material-ui/core';
 import "./LoginForm.css"
 function LoginForm() {
     return (
@@ -9,9 +8,7 @@ function LoginForm() {
                 <input type='text' id='username' />
                 <label className="l" for='password'>PASSWORD</label>
                 <input type='password' id='password' />
-                <Button className='btnLogin' variant="contained" color="#000" href="#">
-                    Submit
-                </Button>
+                <input type='submit' value='submit' className='submit' />
             </React.Fragment>
         // </div>
     )

@@ -10,8 +10,8 @@ import OrderModel from "./models/order.js";
 const db = new Sequelize({
   dialect: "mysql",
   database: "testDB",
-  username: "testuser",
-  password: "Testpass@12345",
+  username: "localhost",
+  password: "",
   pool: {
     max: 20,
     min: 0,

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '@material-ui/core';
 function RegisterForm() {
     return (
         // <div className="form-group">
@@ -16,9 +15,7 @@ function RegisterForm() {
                 <input type="text" id="address" />
                 <label className="l" for="pincode">Pincode</label>
                 <input type="text" id="pincode" />
-                <Button className='btnLogin' variant="contained" color="#000">
-                    Submit
-                </Button>     
+                <input type='submit' value='submit' className='submit' />     
             </React.Fragment>
         // </div>
     )
