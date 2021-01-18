@@ -14,3 +14,6 @@ db.sync({force: true })
         console.log("Database and tables created")
         app.listen(5000, ()=> console.log("server started on http://localhost:5000") )
     })
+    .catch(function(err) {
+        console.error('error found is: ', err);
+   });
