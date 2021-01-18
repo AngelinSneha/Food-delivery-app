@@ -27,7 +27,7 @@ export default (sequelize, type) => {
         allowNull: false
     },
     phoneNumber:{
-        type: type.INTEGER,
+        type: type.BIGINT,
         allowNull: false
     },
     createdAt: {
