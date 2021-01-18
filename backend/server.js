@@ -9,7 +9,7 @@ app.get('/',(req,res) => {
 })
 
 
-db.sync({force: true })
+db.sync({force: false })
     .then(()=>{
         console.log("Database and tables created")
         app.listen(5000, ()=> console.log("server started on http://localhost:5000") )
