@@ -1,9 +1,9 @@
 import React from 'react'
-import Appbar from './header/Appbar'
-import RestaurantMenuJumbotronPage from "./MenuPage/RestaurantMenuJumbotronPage";
-import MenuCards from './MenuPage/MenuCards';
+import Appbar from './components/header/Appbar'
+import RestaurantMenuJumbotronPage from "./components/MenuPage/RestaurantMenuJumbotronPage";
+import MenuCards from './components/MenuPage/MenuCards';
 import { Grid } from '@material-ui/core'
-import Footer from "./footer/Footer";
+import Footer from "./components/footer/Footer";
 function RestaurantMenuPage() {
     return (
         <div>

@@ -6,8 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import CardActions from '@material-ui/core/CardActions';
-import Button from '@material-ui/core/Button';
-import MenuQuatityButton from "./MenuQuatityButton";
+import MenuQuantityButton from "./MenuQuantityButton";
 const useStyles = makeStyles({
   root: {
     maxWidth: 445,
@@ -40,7 +39,7 @@ function MenuCard(props) {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <MenuQuatityButton />
+              <MenuQuantityButton />
             </CardActions>
           </Card>
         </div>

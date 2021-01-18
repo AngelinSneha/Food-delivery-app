@@ -1,29 +1,29 @@
-import HomePage from "./components/HomePage";
-import HelpPage from "./HelpPage"
-import RestaurantMenuPage from "./components/RestaurantMenuPage";
+import HomeScreen from "./HomeScreen";
+import HelpPageScreen from "./HelpPageScreen"
+import MenuScreen from "./MenuScreen";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Login from "./Login"
+import LoginScreen from "./LoginScreen"
 function App() {
   return (
     <div className="app">
     <Router>
      <Switch>
       <Route path="/menu">
-        <RestaurantMenuPage />
+        <MenuScreen />
       </Route>
       <Route path="/help">
-        <HelpPage />
+        <HelpPageScreen />
       </Route>
       <Route path="/login">
-        <Login />
+        <LoginScreen />
         </Route>
       <Route path="/">
-        <HomePage />
+        <HomeScreen />
       </Route>
      </Switch>
      </Router>

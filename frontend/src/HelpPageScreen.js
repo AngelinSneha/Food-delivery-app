@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from './components/footer/Footer'
 import AppBar from "./components/header/Appbar"
-import "./HelpPage.css"
-import HelpContent from "./HelpContent"
+import "./HelpPageScreen.css"
+import HelpContent from "./components/helpPage/HelpContent"
 function HelpPage() {
     return (
         <div>

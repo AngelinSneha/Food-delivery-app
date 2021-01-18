@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { useSpring, animated } from "react-spring"; // react-spring
-import "./Login.css";
+import "./LoginScreen.css";
 import LoginForm from "./components/login/LoginForm";
 import RegisterForm from "./components/login/RegisterForm";
 function Login() {
